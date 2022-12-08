@@ -13,8 +13,7 @@ header >  h1{
 }
 
 .tasks{
-    width: 28rem;
-    margin: auto;
+    background-color: ;
 }
 
 
@@ -30,28 +29,4 @@ header >  h1{
     border-radius: 20px;
 }
 
-#buttonAdd{
-    margin-top: 20px;
-    display: flex;
-    float: right;
-    border-style: none;
-    background-color: black;
-    color: white;
-    border-radius: 15px;
-    width: 8rem;
-    height: 1.6rem;
-    
-    justify-content: center;
-}
-
-#buttonAdd:hover{
-    background-color: white;
-    color: black;
-    border: 2px solid black;
-}
-
-#buttonAdd:active{
-        transform: scale(95%);
-
-}
 

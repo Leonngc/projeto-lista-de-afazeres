@@ -13,6 +13,7 @@ header >  h1{
 }
 
 .tasks{
+    background-color: blue;
     width: 28rem;
     margin: auto;
 }

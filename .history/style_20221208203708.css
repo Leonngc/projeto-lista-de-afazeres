@@ -13,6 +13,7 @@ header >  h1{
 }
 
 .tasks{
+    background-color: blue;
     width: 28rem;
     margin: auto;
 }
@@ -45,9 +46,7 @@ header >  h1{
 }
 
 #buttonAdd:hover{
-    background-color: white;
-    color: black;
-    border: 2px solid black;
+    ba
 }
 
 #buttonAdd:active{
