@@ -68,28 +68,5 @@ header >  h1{
     justify-content: center;
 }
 
-#buttonRemove-all:hover{
-    background-color: black;
-    color: white;
-}
-
-#frase-random{
-    margin-top: 220px;
-}
-
-#frase-random > p{
-    text-align: center;
-    font-family: 'Shadowa Into Light', cursive;
-    margin-bottom: 20px;
-}
-
-#frase-button{
-    display: flex;
-    margin: auto;
-    width: 8rem;
-    height: 1.6rem;
-    border-radius: 20px;
-    justify-content: center;
-    background-color: white;
-}
+#buttonRemove-all:h
 

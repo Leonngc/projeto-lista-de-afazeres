@@ -50,46 +50,22 @@ header >  h1{
     border: 2px solid black;
 }
 
-.button:active{
+#buttonAdd:active{
         transform: scale(95%);
 
 }
 
-#buttonRemove-all{
+.remove-all{
     margin-top: 20px;
+    display: flex;
+    float: inline-start;
     border-style: none;
-    background-color: rgb(255, 255, 255);
-    border: 2px solid black;
-    color: rgb(14, 14, 14);
+    background-color: rgb(151, 10, 10);
+    color: white;
     border-radius: 15px;
     width: 8rem;
     height: 1.6rem;
     
     justify-content: center;
-}
-
-#buttonRemove-all:hover{
-    background-color: black;
-    color: white;
-}
-
-#frase-random{
-    margin-top: 220px;
-}
-
-#frase-random > p{
-    text-align: center;
-    font-family: 'Shadowa Into Light', cursive;
-    margin-bottom: 20px;
-}
-
-#frase-button{
-    display: flex;
-    margin: auto;
-    width: 8rem;
-    height: 1.6rem;
-    border-radius: 20px;
-    justify-content: center;
-    background-color: white;
 }
 

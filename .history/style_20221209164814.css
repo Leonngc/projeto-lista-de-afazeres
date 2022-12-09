@@ -79,17 +79,6 @@ header >  h1{
 
 #frase-random > p{
     text-align: center;
-    font-family: 'Shadowa Into Light', cursive;
-    margin-bottom: 20px;
-}
-
-#frase-button{
-    display: flex;
-    margin: auto;
-    width: 8rem;
-    height: 1.6rem;
-    border-radius: 20px;
-    justify-content: center;
-    background-color: white;
+    font-family: 'Into Shadows Light';
 }
 

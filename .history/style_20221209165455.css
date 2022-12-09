@@ -89,7 +89,6 @@ header >  h1{
     width: 8rem;
     height: 1.6rem;
     border-radius: 20px;
-    justify-content: center;
-    background-color: white;
+    text-align: center;
 }
 
