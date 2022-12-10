@@ -102,13 +102,3 @@ footer{
     margin-top: 128px;
     text-align: center;
 }
-
-footer > p{
-    font-size: 18px;
-    font-family: Arial, Helvetica, sans-serif;
-}
-
-footer a{
-    font-family: 'Shandowa Into Light', cursive;
-    color: black;
-}
