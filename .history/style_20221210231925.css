@@ -55,7 +55,7 @@ header >  h1{
 
 }
 
-#remove-all{
+#buttonRemove-all{
     margin-top: 20px;
     border-style: none;
     background-color: rgb(255, 255, 255);
@@ -68,7 +68,7 @@ header >  h1{
     justify-content: center;
 }
 
-#remove-all:hover{
+#buttonRemove-all:hover{
     background-color: black;
     color: white;
 }
@@ -116,9 +116,7 @@ footer a{
 @media  (min-width: 320px) and (max-width:600px) {
    
     #frase-random > p{
-        margin-left: 22px;
-        margin-right: 22px;
+        margin-left: 0px;
+        margin-right: 20px;
     }
-
-
 }

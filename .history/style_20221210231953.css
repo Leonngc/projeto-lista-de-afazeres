@@ -55,7 +55,7 @@ header >  h1{
 
 }
 
-#remove-all{
+#buttonRemove-all{
     margin-top: 20px;
     border-style: none;
     background-color: rgb(255, 255, 255);
@@ -68,7 +68,7 @@ header >  h1{
     justify-content: center;
 }
 
-#remove-all:hover{
+#buttonRemove-all:hover{
     background-color: black;
     color: white;
 }
@@ -120,5 +120,7 @@ footer a{
         margin-right: 22px;
     }
 
-
+    .button{
+        height: 10rem;
+    }
 }
