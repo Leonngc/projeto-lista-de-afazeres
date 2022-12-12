@@ -35,7 +35,7 @@ addEventListener("load", function(){
             str+= `${[i+1]}° ${valor}: ${key} <br>`;
         }
     key.value = ""
-    res.innerHTML = str 
+    res.innerHTML = str
     }
 
     

@@ -22,7 +22,7 @@ addEventListener("load", function(){
         let oldValue = event.oldValue;
         let storageArea = event.storageArea;
 
-        chave.innerHTML(chave+ "\n" +oldValue + "\n" +newValue + "\n" + storageArea);
+        chave.innerHTML(chave+ "\n" +newValue + "\n" +oldValue + "\n" + storageArea);
         exibir();
 
     })
@@ -35,7 +35,7 @@ addEventListener("load", function(){
             str+= `${[i+1]}° ${valor}: ${key} <br>`;
         }
     key.value = ""
-    res.innerHTML = str 
+    res.innerHTML = str
     }
 
     

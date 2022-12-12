@@ -26,7 +26,6 @@ header >  h1{
     padding: 5px;
     padding-left: 20px;
     font-family: 'Shadows Into Light', cursive;
-    font-weight: bold;
     border: 2px solid rgb(18, 16, 16);
     border-radius: 20px;
 }
@@ -124,14 +123,8 @@ footer a{
 
 }
 
-.section-res{
-    margin-left: 23px;
-}
-
 #res{
-    display: flex;
-    flex-flow: row wrap;
-    font-size: 1.3em;
-    font-weight: bold;
+    margin-left: 20px;
+    font-size: 1.5em;
     font-family: 'Shadows Into Light';
 }

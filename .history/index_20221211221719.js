@@ -16,7 +16,7 @@ addEventListener("load", function(){
             exibir();
     })
 
-    addEventListener("storage", function(event){
+   /* addEventListener("storage", function(event){
         let chave = event.key;
         let newValue = event.newValue;
         let oldValue = event.oldValue;
@@ -25,7 +25,7 @@ addEventListener("load", function(){
         chave.innerHTML(chave+ "\n" +oldValue + "\n" +newValue + "\n" + storageArea);
         exibir();
 
-    })
+    })*/
 
     function exibir(){
         let str = "";
@@ -35,7 +35,7 @@ addEventListener("load", function(){
             str+= `${[i+1]}° ${valor}: ${key} <br>`;
         }
     key.value = ""
-    res.innerHTML = str 
+    res.innerHTML = str
     }
 
     

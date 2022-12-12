@@ -25,8 +25,7 @@ header >  h1{
     height: 2rem;
     padding: 5px;
     padding-left: 20px;
-    font-family: 'Shadows Into Light', cursive;
-    font-weight: bold;
+    font-family: 'Shadowa Into Light', cursive;
     border: 2px solid rgb(18, 16, 16);
     border-radius: 20px;
 }
@@ -80,8 +79,7 @@ header >  h1{
 
 #frase-random > p{
     text-align: center;
-    font-family: 'Shadows Into Light', cursive;
-    font-weight: bold;
+    font-family: 'Shadowa Into Light', cursive;
     margin-bottom: 20px;
 }
 
@@ -111,6 +109,7 @@ footer > p{
 }
 
 footer a{
+    font-family: 'Shandowa Into Light', cursive;
     color: black;
 }
 
@@ -124,14 +123,6 @@ footer a{
 
 }
 
-.section-res{
-    margin-left: 23px;
-}
-
 #res{
-    display: flex;
-    flex-flow: row wrap;
-    font-size: 1.3em;
-    font-weight: bold;
-    font-family: 'Shadows Into Light';
+    font-family: ;
 }

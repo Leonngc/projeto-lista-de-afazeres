@@ -22,7 +22,7 @@ addEventListener("load", function(){
         let oldValue = event.oldValue;
         let storageArea = event.storageArea;
 
-        chave.innerHTML(chave+ "\n" +oldValue + "\n" +newValue + "\n" + storageArea);
+        chave.innerHTML(chave+ "\n" +newValue + "\n" +oldValue + "\n" + storageArea);
         exibir();
 
     })
@@ -32,10 +32,10 @@ addEventListener("load", function(){
         for(let i = 0, len = localStorage.length; i < len; i++){
             let key = localStorage.key(i)
             let  valor = localStorage.getItem(key)
-            str+= `${[i+1]}° ${valor}: ${key} <br>`;
+            str+= ` ${[i+1]}. ${key} <br>`;
         }
     key.value = ""
-    res.innerHTML = str 
+    res.innerHTML = str
     }
 
     

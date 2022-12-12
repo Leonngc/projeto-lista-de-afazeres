@@ -129,8 +129,6 @@ footer a{
 }
 
 #res{
-    display: flex;
-    flex-flow: row wrap;
     font-size: 1.3em;
     font-weight: bold;
     font-family: 'Shadows Into Light';
