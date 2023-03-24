@@ -3,7 +3,7 @@ const addTask = document.querySelector('#buttonAdd');
 const removeAll = document.querySelector('#removeAll');
 const res = document.querySelector('#res');
 
-
+let liTask = document.getElementsByClassName('liTask')
 
 addTask.addEventListener('click', () =>{
     
@@ -19,4 +19,5 @@ removeAll.addEventListener('click', ()=>{
 
 function deleteTask(){
     
+    li..style.display = "none"
 }

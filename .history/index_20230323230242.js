@@ -19,4 +19,5 @@ removeAll.addEventListener('click', ()=>{
 
 function deleteTask(){
     
+    liTask.appendChild.style.display = "none"
 }

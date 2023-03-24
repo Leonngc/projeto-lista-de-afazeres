@@ -18,5 +18,6 @@ removeAll.addEventListener('click', ()=>{
 })
 
 function deleteTask(){
-    
+    let liTask = document.getElementsByClassName('liTask')
+    liTask..style.display = "none"
 }
