@@ -120,7 +120,8 @@ footer a{
 }
 
 #res{
-    display: block;
+    display: flex;
+    flex-flow: row wrap;
     font-size: 1.3em;
     font-weight: bold;
     font-family: cursive;
@@ -130,4 +131,9 @@ footer a{
 
  i{
     font-size: 15px;
+}
+
+li{
+    display: block;
+    color: red;
 }

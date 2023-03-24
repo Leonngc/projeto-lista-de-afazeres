@@ -56,7 +56,7 @@ header >  h1{
 
 }
 
-#removeAll{
+#remove-all{
     margin-top: 20px;
     border-style: none;
     background-color: rgb(255, 255, 255);
@@ -69,7 +69,7 @@ header >  h1{
     justify-content: center;
 }
 
-#removeAll:hover{
+#remove-all:hover{
     background-color: black;
     color: white;
 }
@@ -114,20 +114,25 @@ footer a{
     color: black;
 }
 
+@media  (min-width: 320px) and (max-width:600px) {
+   
+    #frase-random > p{
+        margin-left: 22px;
+        margin-right: 22px;
+    }
+
+
+}
 
 .section-res{
     margin-left: 25px;
 }
 
 #res{
-    display: block;
+    display: flex;
+    flex-flow: row wrap;
     font-size: 1.3em;
     font-weight: bold;
     font-family: cursive;
-    margin-left: 30px;
-    margin-top: 30px;
-}
-
- i{
-    font-size: 15px;
+    mar
 }

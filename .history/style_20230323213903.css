@@ -121,6 +121,7 @@ footer a{
 
 #res{
     display: block;
+    flex-flow: row wrap;
     font-size: 1.3em;
     font-weight: bold;
     font-family: cursive;

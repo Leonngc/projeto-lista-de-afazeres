@@ -11,3 +11,4 @@ addTask.addEventListener('click', () =>{
     <button class="editButton" onclick="checkTask()"><i class="fi fi-br-check"></i> </button> </li>`
 })
 
+
