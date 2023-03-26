@@ -21,6 +21,6 @@ function deleteTask(){
 
 
 removeAll.addEventListener('click', ()=>{
-    ul.remove
+    ul.removeChild
 })
 

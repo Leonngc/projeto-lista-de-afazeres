@@ -3,6 +3,7 @@ const addTask = document.querySelector('#buttonAdd');
 const removeAll = document.querySelector('#removeAll');
 const res = document.querySelector('#res');
 const ul = document.querySelector('ul');
+const removeBtn = document.querySelector('#removeBtn');
 
 addTask.addEventListener('click', () =>{
     let newli = document.createElement('li')
@@ -16,11 +17,12 @@ addTask.addEventListener('click', () =>{
 
 
 function deleteTask(){
-    
+    let removeBtn = document.querySelector('#removeBtn');
+    console.log(removeBtn.parentNode)
 }
 
 
 removeAll.addEventListener('click', ()=>{
-    ul.remove
+    res.innerHTML = " "
 })
 
