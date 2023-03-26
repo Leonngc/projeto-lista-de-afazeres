@@ -6,9 +6,8 @@ const ul = document.querySelector('ul')
 
 addTask.addEventListener('click', () =>{
     let newli = document.createElement('li')
-    newli.innerText = `${task.value}`
-    ul.appendChild(newli)
-  
+    ul.appendChild(newLi)
+    ul.prepend(`${task.value}`)
 
     
 })
