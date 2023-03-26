@@ -12,6 +12,7 @@ addTask.addEventListener('click', () =>{
     
 })
 
+alert
 
 removeAll.addEventListener('click', ()=>{
     res.innerHTML = " "
