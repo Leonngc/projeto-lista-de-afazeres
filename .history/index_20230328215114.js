@@ -9,7 +9,7 @@ const ul = document.querySelector('ul');
 addTask.addEventListener('click', () =>{
     let newremoveBtn = document.createElement('button')
     let newi = document.createElement('i')
-    button.className = "removeBtn"
+    butt
     newi.className = "fi fi-br-cross"
     let newli = document.createElement('li')
     newli.innerText = `${task.value}`
@@ -20,7 +20,6 @@ addTask.addEventListener('click', () =>{
 
 
 function deleteTask(){
-    const removeBtn = document.querySelector('.removeBtn')
     removeBtn.parentElement.style.display = 'none'
 }
 

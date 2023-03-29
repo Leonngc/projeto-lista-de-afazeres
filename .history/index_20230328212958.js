@@ -4,24 +4,21 @@ const removeAll = document.querySelector('#removeAll');
 const res = document.querySelector('#res');
 const ul = document.querySelector('ul');
 
-
-
 addTask.addEventListener('click', () =>{
-    let newremoveBtn = document.createElement('button')
-    let newi = document.createElement('i')
-    button.className = "removeBtn"
-    newi.className = "fi fi-br-cross"
     let newli = document.createElement('li')
-    newli.innerText = `${task.value}`
-    newli.appendChild(removeBtn)
+
+    newli.innerHTML = `<li>${task.value}
+    <button class="editButton" id="removeBtn" onclick="deleteTask()"><i class="fi fi-br-cross"></i></button> 
+    <button class="editButton" onclick="editTask()"><i class="fi fi-sr-pencil"></i></button> 
+    <button class="editButton" onclick="checkTask()"><i class="fi fi-br-check"></i> </button> </li>`
     ul.appendChild(newli)
     task.value = ''
 })
 
 
 function deleteTask(){
-    const removeBtn = document.querySelector('.removeBtn')
-    removeBtn.parentElement.style.display = 'none'
+    const removeV = document.querySelector('#removeBtn')
+    removeV.parentElement
 }
 
 

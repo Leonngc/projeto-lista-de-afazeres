@@ -7,7 +7,7 @@ const ul = document.querySelector('ul');
 
 
 addTask.addEventListener('click', () =>{
-    let newremoveBtn = document.createElement('button')
+    let newremoveBtn = document.createElement('')
     let newi = document.createElement('i')
     button.className = "removeBtn"
     newi.className = "fi fi-br-cross"

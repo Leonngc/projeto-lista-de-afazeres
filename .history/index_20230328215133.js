@@ -20,7 +20,6 @@ addTask.addEventListener('click', () =>{
 
 
 function deleteTask(){
-    const removeBtn = document.querySelector('.removeBtn')
     removeBtn.parentElement.style.display = 'none'
 }
 
