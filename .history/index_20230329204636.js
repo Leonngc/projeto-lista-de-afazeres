@@ -13,10 +13,6 @@ addTask.addEventListener('click', () =>{
     task.value = ''
     btnRemove.className = 'fi fi-rs-circle-cross'
     newLi.appendChild(btnRemove)
-    btnRemove.addEventListener('click', ()=>{
-        btnRemove.parentElement.style.display = 'none'
-        console.log('PEGOU CARALHO')
-    })
  
 })
 

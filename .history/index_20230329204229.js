@@ -6,21 +6,25 @@ const ul = document.querySelector('ul');
 
 addTask.addEventListener('click', () =>{
     let newLi = document.createElement('li');
-    let btnRemove = document.createElement('i')
-
     newLi.innerText = `${task.value}`
     ul.appendChild(newLi)
     task.value = ''
-    btnRemove.className = 'fi fi-rs-circle-cross'
-    newLi.appendChild(btnRemove)
-    btnRemove.addEventListener('click', ()=>{
-        btnRemove.parentElement.style.display = 'none'
-        console.log('PEGOU CARALHO')
-    })
- 
+    removeTask(newLi);
 })
 
+
+function removeTask(li){
+  let btnRemove = document.createElement('i')
+  btnRemove.className = 'fi fi-rs-circle-cross'
+  btnRemove.addEventListener('click', ()=>{
+  btnRemove.parentElement.style.display = 'none'
+  })
+}
+
+document.querySelectorAll('li').forEach(removeTask);
+
+
 removeAll.addEventListener('click', ()=>{
-    ul.innerText =''
+    ul.remove
 })
 

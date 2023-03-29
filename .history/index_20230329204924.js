@@ -15,7 +15,6 @@ addTask.addEventListener('click', () =>{
     newLi.appendChild(btnRemove)
     btnRemove.addEventListener('click', ()=>{
         btnRemove.parentElement.style.display = 'none'
-        console.log('PEGOU CARALHO')
     })
  
 })

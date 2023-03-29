@@ -4,23 +4,25 @@ const removeAll = document.querySelector('#removeAll');
 const res = document.querySelector('#res');
 const ul = document.querySelector('ul');
 
+
+
 addTask.addEventListener('click', () =>{
     let newLi = document.createElement('li');
-    let btnRemove = document.createElement('i')
-
     newLi.innerText = `${task.value}`
     ul.appendChild(newLi)
-    task.value = ''
-    btnRemove.className = 'fi fi-rs-circle-cross'
-    newLi.appendChild(btnRemove)
-    btnRemove.addEventListener('click', ()=>{
-        btnRemove.parentElement.style.display = 'none'
-        console.log('PEGOU CARALHO')
-    })
- 
+    createButtonRemove()
 })
 
+function createButtonRemove(){
+    
+}
+
+function deleteTask(){
+  
+}
+
+
 removeAll.addEventListener('click', ()=>{
-    ul.innerText =''
+    ul.remove
 })
 
