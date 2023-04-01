@@ -9,7 +9,7 @@ addTask.addEventListener('click', () =>{
     let btnRemove = document.createElement('i')
     let editBtn = document.createElement('i')
     let editConfirm = document.createElement('i')
-    let span = document.createElement('span')
+    var span = document.createElement('span')
 
     let editInput = document.createElement('input')
     span.innerText = `${task.value}`
@@ -34,9 +34,7 @@ addTask.addEventListener('click', () =>{
         newLi.appendChild(editConfirm)
 
         editConfirm.addEventListener('click', ()=>{
-            let newTask = editInput.value
-            let newSpan = document.createElement('span')
-            newSpan.innerHTML = `${newTask}`
+            span.innerText = `${editInput.value}`
         })
     })
 })

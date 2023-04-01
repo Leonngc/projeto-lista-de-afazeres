@@ -33,11 +33,7 @@ addTask.addEventListener('click', () =>{
         editConfirm.className = "fi fi-br-check"
         newLi.appendChild(editConfirm)
 
-        editConfirm.addEventListener('click', ()=>{
-            let newTask = editInput.value
-            let newSpan = document.createElement('span')
-            newSpan.innerHTML = `${newTask}`
-        })
+        editConfirm.addEventListener('click', ())
     })
 })
 

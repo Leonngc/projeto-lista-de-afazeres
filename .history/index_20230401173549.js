@@ -35,8 +35,8 @@ addTask.addEventListener('click', () =>{
 
         editConfirm.addEventListener('click', ()=>{
             let newTask = editInput.value
-            let newSpan = document.createElement('span')
-            newSpan.innerHTML = `${newTask}`
+            span.appendChild()
+            newLi.replaceChild(span, newTask)
         })
     })
 })
