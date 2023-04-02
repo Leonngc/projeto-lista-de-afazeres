@@ -10,15 +10,14 @@ addTask.addEventListener('click', () =>{
     let editBtn = document.createElement('i')
     let editConfirm = document.createElement('i')
     let span = document.createElement('span')
-    let editInput = document.createElement('input')
 
+    let editInput = document.createElement('input')
     span.innerText = `${task.value}`
     ul.appendChild(newLi)
     task.value = ''
 
     btnRemove.className = 'fi fi-rs-circle-cross'
     editBtn.className = "fi fi-sr-pencil"
-
     newLi.appendChild(span)
     newLi.appendChild(btnRemove)
     newLi.appendChild(editBtn)
@@ -29,7 +28,6 @@ addTask.addEventListener('click', () =>{
  
     editBtn.addEventListener('click', ()=>{ 
         newLi.replaceChild(editInput, span)
-   
         editInput.setAttribute('type', 'text')
         editInput.setAttribute('placeholder', 'Altere sua tarefa')
         editConfirm.className = "fi fi-br-check"
@@ -37,13 +35,11 @@ addTask.addEventListener('click', () =>{
 
         editConfirm.addEventListener('click', ()=>{
             let newSpan = document.createElement('span')
-
             newSpan.innerText = `${editInput.value}`
-            newLi.replaceChild(newSpan, editInput)
-            
-            if(editInput.style.display != 'none' && editConfirm.style.display != 'none'){
+            newLi.prepend(newSpan)
+            if(editInput.style.display != 'none'){
             editInput.style.display = 'none'
-            editConfirm.style.display = 'none'
+            editBtn.stt
         }else{
             editInput.style.display = 'block'
         }

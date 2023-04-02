@@ -40,7 +40,7 @@ addTask.addEventListener('click', () =>{
 
             newSpan.innerText = `${editInput.value}`
             newLi.replaceChild(newSpan, editInput)
-            
+            span = newSpan
             if(editInput.style.display != 'none' && editConfirm.style.display != 'none'){
             editInput.style.display = 'none'
             editConfirm.style.display = 'none'

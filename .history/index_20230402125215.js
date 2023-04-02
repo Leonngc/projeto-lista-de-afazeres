@@ -38,8 +38,6 @@ addTask.addEventListener('click', () =>{
         editConfirm.addEventListener('click', ()=>{
             let newSpan = document.createElement('span')
 
-            newSpan.innerText = `${editInput.value}`
-            newLi.replaceChild(newSpan, editInput)
             
             if(editInput.style.display != 'none' && editConfirm.style.display != 'none'){
             editInput.style.display = 'none'
