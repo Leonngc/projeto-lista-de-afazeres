@@ -1,0 +1,156 @@
+@import url('https://fonts.googleapis.com/css2?family=Shadows+Into+Light&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+}
+header{
+    margin: 40px;
+}
+
+header >  h1{
+    text-align: center;
+    font-family: 'Shadows Into Light', cursive;
+}
+
+.tasks{
+    width: 28rem;
+    margin: auto;
+}
+
+
+#taskInput{
+    display: flex;
+    margin: 0 auto;
+    width: 25rem;
+    height: 2rem;
+    padding: 5px;
+    padding-left: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    border: 2px solid rgb(18, 16, 16);
+    border-radius: 20px;
+}
+
+#buttonAdd{
+    margin-top: 20px;
+    display: flex;
+    float: right;
+    border-style: none;
+    background-color: black;
+    color: white;
+    border-radius: 15px;
+    width: 8rem;
+    height: 1.6rem;
+    
+    justify-content: center;
+}
+
+#buttonAdd:hover{
+    background-color: white;
+    color: black;
+    border: 2px solid black;
+}
+
+.button:active{
+        transform: scale(95%);
+
+}
+
+#removeAll{
+    margin-top: 20px;
+    border-style: none;
+    background-color: rgb(255, 255, 255);
+    border: 2px solid black;
+    color: rgb(14, 14, 14);
+    border-radius: 15px;
+    width: 8rem;
+    height: 1.6rem;
+    
+    justify-content: center;
+}
+
+#removeAll:hover{
+    background-color: black;
+    color: white;
+}
+
+#frase-random{
+    margin-top: 220px;
+}
+
+#frase-random > p{
+    text-align: center;
+    font-family: 'Shadows Into Light', cursive;
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+
+#frase-button{
+    display: flex;
+    margin: auto;
+    width: 8rem;
+    height: 1.6rem;
+    border-radius: 20px;
+    justify-content: center;
+    background-color: white;
+}
+
+#frase-button:hover{
+    background-color: black;
+    color: white;
+}
+
+footer{
+    margin-top: 128px;
+    text-align: center;
+}
+
+footer > p{
+    font-size: 18px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+footer a{
+    color: black;
+}
+
+
+.section-res{
+    margin-left: 25px;
+}
+
+#res{
+    display: block;
+    font-size: 1.3em;
+    font-weight: bold;
+    font-family: cursive;
+    justify-u: center;
+    align-items: center;
+    margin-top: 30px;
+}
+
+    .removeBtn{
+        background-color: rgba(240, 248, 255, 0);
+        border: none;
+    }
+ i{
+    font-size: 18px;
+    margin-left: 15px;
+}
+
+
+
+li{
+    margin-bottom: 2px;
+}
+
+.checked{
+    text-decoration: line-through  2px rgb(0, 0, 0);
+    color: rgba(0, 0, 0, 0.562);
+}
+
+.editInput{
+    border: none;
+    font-size: 17px;
+}
+
