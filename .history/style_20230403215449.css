@@ -161,20 +161,13 @@ li{
 }
 
 @media screen and (max-width: 830px ) {
-   
-    .tasks > input {
-        text-align: center;
-        justify-content: center;
-    }
-
-    .button{
-        padding-top: 12px;
-        padding-bottom: 22px;
+    .tasks{
         
     }
 
     #taskInput{
         width: 20rem;
+        margin: auto 0;
     }
 
     

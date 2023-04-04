@@ -3,11 +3,6 @@
     margin: 0;
     padding: 0;
 }
-
-body{
-    min-width: 100vw;
-}
-
 header{
     margin: 40px;
 }
@@ -161,20 +156,8 @@ li{
 }
 
 @media screen and (max-width: 830px ) {
-   
-    .tasks > input {
-        text-align: center;
-        justify-content: center;
-    }
-
-    .button{
-        padding-top: 12px;
-        padding-bottom: 22px;
-        
-    }
-
-    #taskInput{
-        width: 20rem;
+    #task-input{
+        width: 320px;
     }
 
     

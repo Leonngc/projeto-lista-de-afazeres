@@ -168,9 +168,8 @@ li{
     }
 
     .button{
-        padding-top: 12px;
-        padding-bottom: 22px;
-        
+        padding: 20px;
+        text-align: ;
     }
 
     #taskInput{
