@@ -31,15 +31,13 @@ header >  h1{
     padding-left: 20px;
     font-family: Arial, Helvetica, sans-serif;
     font-weight: bold;
-    font-size: 16px;
     border: 2px solid rgb(18, 16, 16);
     border-radius: 20px;
 }
 
 .button{
-    width: 9rem;
-    height: 3rem;
-    font-size: 16px;
+    width: 8rem;
+    height: 1.6rem;
 }
 
 #buttonAdd{
@@ -87,7 +85,6 @@ header >  h1{
     text-align: center;
     font-family: 'Shadows Into Light', cursive;
     font-weight: bold;
-    font-size: 22px;
     margin-bottom: 20px;
 }
 
@@ -107,7 +104,7 @@ header >  h1{
 }
 
 footer{
-    margin-top: 100px;
+    margin-top: 128px;
     text-align: center;
 }
 
@@ -141,7 +138,7 @@ footer a{
         border: none;
     }
  i{
-    font-size: 22px;
+    font-size: 18px;
     margin-left: 15px;
 }
 
@@ -149,7 +146,6 @@ footer a{
 
 li{
     margin-bottom: 2px;
-    font-size: 22px;
 }
 
 .checked{
@@ -173,10 +169,10 @@ li{
     }
 
     .button{
-        font-size: 18px;
+        font-size: 20px;
         height: 3.4rem;
-        width: 9rem;
-        margin-right: 16px;
+        width: 9.6rem;
+    
     }
 
     #taskInput{
@@ -188,32 +184,6 @@ li{
 
     li{
         font-family: 'Shadows Into Light', sans-serif;
-        font-size: 28px;
+        font-size: 2px;
     }
-
-    i{
-        font-size: 23px;
-        margin-right: 8px;
-    }
-
-    #frase-random{
-        font-size: 16px;
-        margin: 40px;
-    }
-
-    #frase-random > p{
-        font-size: 22px;
-    }
-
-    footer > p{
-        padding: 12px;
-        font-size: 22px;
-    }
-
-   footer > p > a{
-        color: rgb(104, 16, 191);
-        font-size: 23px;
-    }
-
-
 }

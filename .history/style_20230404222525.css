@@ -149,7 +149,7 @@ footer a{
 
 li{
     margin-bottom: 2px;
-    font-size: 22px;
+    font-size: ;
 }
 
 .checked{
@@ -189,11 +189,6 @@ li{
     li{
         font-family: 'Shadows Into Light', sans-serif;
         font-size: 28px;
-    }
-
-    i{
-        font-size: 23px;
-        margin-right: 8px;
     }
 
     #frase-random{

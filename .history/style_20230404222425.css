@@ -22,6 +22,10 @@ header >  h1{
     margin: auto;
 }
 
+li{
+    
+}
+
 
 #taskInput{
     margin: 0 auto;
@@ -141,7 +145,7 @@ footer a{
         border: none;
     }
  i{
-    font-size: 22px;
+    font-size: 18px;
     margin-left: 15px;
 }
 
@@ -149,7 +153,6 @@ footer a{
 
 li{
     margin-bottom: 2px;
-    font-size: 22px;
 }
 
 .checked{
@@ -189,11 +192,6 @@ li{
     li{
         font-family: 'Shadows Into Light', sans-serif;
         font-size: 28px;
-    }
-
-    i{
-        font-size: 23px;
-        margin-right: 8px;
     }
 
     #frase-random{
